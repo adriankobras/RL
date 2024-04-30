@@ -26,3 +26,5 @@ for episode in range(1, episodes+1):
 env.close()
 
 # understand the environment
+env.action_space.sample()
+env.observation_space.sample()
